@@ -1,0 +1,67 @@
+header:
+  name: "Bobelbo"
+  title: "Currently living"
+  email: "example@example.example"
+  contacts:
+    - type: "Adress"
+      value: "123 road road, city, country"
+    - type: Phone / Email
+      value: "000-000-0000 / example@example.example"
+    - type: LinkedIn
+      value: ":)"
+
+formation:
+  name: "Formation"
+  type: "list"
+  values:
+    - name: "PHD in living"
+      link: "Uiversity of life"
+      period: "1984 - now"
+      url: ""
+
+skills:
+  name: Skills
+  type: "table"
+  values:
+    - name: "Unusual skills"
+      values:
+        - "Can run (sometimes)"
+        - "Automating tasks"
+    - name: "Boring Skills"
+      values:
+        - "Cooking"
+        - "Changing tires"
+        - "Cleaning toilets"
+        - "Paper cranes"
+    - name: "Nice skills"
+      values:
+        - "Driving"
+        - "Not Crashing"
+        - "Can Walk"
+
+competitions:
+  name: "competitions"
+  type: "list"
+  # Linking will use tha key name and bind the url to that key default is link
+  linking: "name"
+  values:
+    - name: "JDIS Games"
+      description: "Cool competition to do :)"
+      url: "https://jdis.ca/"
+      period: "2025"
+
+fun:
+  name: "Fun"
+  type: "table"
+  values:
+    - name: "Sports"
+      values:
+        - "Sporting"
+    - name: "Free time"
+      values:
+        - "Doing things"
+        - "Sleeping"
+    # This is how you add empty columnn for better rendering
+    - name: ""
+      values:
+        -
